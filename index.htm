@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- header start  -->
+    <header>
+        <div class="container">
+            <div id="particles-js"></div>
+            <nav>
+                <div class="container">
+                    <div id="navbar">
+                        <a href="#" id="nav-logo">
+                            <img src="img/logo.png" alt="Logo" />
+                        </a>
+                        <div id="sidebar">
+                            <button onclick="sidebarBtn()" id="close-btn">
+                                <i class="fas fa-times"></i>
+                            </button>
+                            <ul id="side-links"></ul>
+                        </div>
+                        <button id="nav-get">
+                            Get Quotes
+                        </button>
+                        <button id="dark-mode">
+                            <i class="fas fa-moon "></i>
+                        </button>
+                        <button onclick="sidebarBtn()" id="nav-button">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <div id="hero">
+                <div class="hero-container">
+                    <h1>Delivering Superior Services <span>IT Solutions.</span></h1>
+                    <p>You can easily change any design to your own. It is also highly customizable SEO friendly template.</p>
+                    <div id="nav-social-links">
+                        <span><i class="fa-brands fa-twitter"></i></span>
+                        <span><i class="fa-brands fa-facebook"></i></span>
+                        <span><i class="fa-brands fa-linkedin"></i></span>
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                    </div>
+                    <div class="hero-btn">
+                        <button>Get Quotes</button>
+                        <button>Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end  -->
+    <!-- main satrt  -->
+    <main>
+        <section id="section1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-s-6">
+                        <div class="sec1-card">
+                            <img width="77px" src="img/service-design.svg" />
+                            <h4>Application Design</h4>
+                            <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-s-6">
+                        <div class="sec1-card">
+                            <img width="77px" src="img/service-hosting.svg" />
+                            <h4>Web Hosting</h4>
+                            <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-s-6">
+                        <div class="sec1-card">
+                            <img width="77px" src="img/service-social.svg" />
+                            <h4>Social Media</h4>
+                            <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-s-6">
+                        <div class="sec1-card">
+                            <img width="77px" src="img/service-seo.svg" />
+                            <h4>SEO Optimization</h4>
+                            <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-s-6">
+                        <div class="sec1-card">
+                            <img width="77px" src="img/service-cloud.svg" />
+                            <h4>Cloud Server</h4>
+                            <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-s-6">
+                        <div class="sec1-card">
+                            <img width="77px" src="img/service-secure.svg" />
+                            <h4>Data Secuity</h4>
+                            <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section2">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Why Choose Us</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="choose-row">
+                    <div class="col-lg-4">
+                        <div class="choose-box">
+                            <div class="choose-item">
+                                <div class="choose-text choose-text-left">
+                                    <h4>Experience</h4>
+                                    <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="choose-img">
+                                    <img width="70px" src="img/icon-1.svg" />
+                                </div>
+                            </div>
+                            <div class="choose-item">
+                                <div class="choose-text choose-text-left">
+                                    <h4>Products</h4>
+                                    <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="choose-img">
+                                    <img width="70px" src="img/icon-2.svg" />
+                                </div>
+                            </div>
+                            <div class="choose-item">
+                                <div class="choose-text choose-text-left">
+                                    <h4>Approach</h4>
+                                    <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="choose-img">
+                                    <img width="70px" src="img/icon-3.svg" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 align-self-center">
+                        <div class="choose-box">
+                            <div class="choose-item-img">
+                                <img width="80%" src="img/features.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="choose-box">
+                            <div class="choose-item">
+                                <div class="choose-img">
+                                    <img width="70px" src="img/icon-4.svg" />
+                                </div>
+                                <div class="choose-text">
+                                    <h4>Pricing</h4>
+                                    <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                            <div class="choose-item">
+                                <div class="choose-img">
+                                    <img width="70px" src="img/icon-5.svg" />
+                                </div>
+                                <div class="choose-text">
+                                    <h4>Delivery</h4>
+                                    <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                            <div class="choose-item">
+                                <div class="choose-img">
+                                    <img width="70px" src="img/icon-6.svg" />
+                                </div>
+                                <div class="choose-text">
+                                    <h4>Support</h4>
+                                    <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section3">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Portfolio</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="sec3-btns">
+                    <button onclick="ShowAllImg(5)">All</button>
+                    <button onclick="ShowAllImg(1)">App Design</button>
+                    <button onclick="ShowAllImg(0)">App Development</button>
+                    <button onclick="ShowAllImg(1)">Branding</button>
+                    <button onclick="ShowAllImg(0)">It Solutions</button>
+                </div>
+                <div id="sec3-content"></div>
+            </div>
+        </section>
+        <section id="section4">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Pricing Plans</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="sec4-content">
+                    <div class="col-lg-4">
+                        <div class="price-card">
+                            <div class="price-title">
+                                <h3>Basic</h3>
+                                <h6><sup>$</sup><span>25</span></h6>
+                            </div>
+                            <ul class="price-list"></ul>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="price-card">
+                            <div class="price-title">
+                                <h3>Standard</h3>
+                                <h6><sup>$</sup><span>50</span></h6>
+                            </div>
+                            <ul class="price-list"></ul>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="price-card">
+                            <div class="price-title">
+                                <h3>Premiuim</h3>
+                                <h6><sup>$</sup><span>100</span></h6>
+                            </div>
+                            <ul class="price-list"></ul>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section5"
+            <div class="container">
+                <div class="section-title">
+                    <h2>Testimonials</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="sec5-slider">
+                    <div class="swiper mySwiper swiper5">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide1">
+                                <div class="sec5-card1"></div>
+                            </div>
+                            <div class="swiper-slide slide1">
+                                <div class="sec5-card1"></div>
+                            </div>
+                            <div class="swiper-slide slide1">
+                                <div class="sec5-card1"></div>
+                            </div>
+                            <div class="swiper-slide slide1">
+                                <div class="sec5-card1"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section6">
+            <div class="container">
+                <div class="sec6-contain">
+                    <div class="sec6-item">
+                        <div class="sec6-img">
+                            <img width="100px" src="img/happy-clients.svg" />
+                        </div>
+                        <div class="sec6-text">
+                            <div id="number1"></div>
+                            <h3>Happy Clients</h3>
+                            <p>consequuntur quae diredo</p>
+                        </div>
+                    </div>
+                    <div class="sec6-item">
+                        <div class="sec6-img">
+                            <img width="100px" src="img/complete-projects.svg" />
+                        </div>
+                        <div class="sec6-text">
+                            <div id="number2"></div>
+                            <h3>Completed Projects</h3>
+                            <p>adipisci atque quia aut</p>
+                        </div>
+                    </div>
+                    <div class="sec6-item">
+                        <div class="sec6-img">
+                            <img width="100px" src="img/hours-support.svg" />
+                        </div>
+                        <div class="sec6-text">
+                            <div id="number3"></div>
+                            <h3>Hours Of Support</h3>
+                            <p>aut commodi quaerat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section7">
+            <div class="container">
+                <div class="swiper mySwiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide2">
+                            <img width="100%" src="img/client-1.png" />
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <img width="100%" src="img/client-2.png" />
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <img width="100%" src="img/client-3.png" />
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <img width="100%" src="img/client-4.png" />
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <img width="100%" src="img/client-5.png" />
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <img width="100%" src="img/client-6.png" />
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <img width="100%" src="img/client-7.png" />
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <img width="100%" src="img/client-8.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section8">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Team</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div id="sec8-contain"></div>
+            </div>
+        </section>
+        <section id="section9">
+            <div class="container">
+                <div class="section-title">
+                    <h2>FAQ's</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div id="sec9-contain">
+                    <div id="accordion-container"></div>
+                </div>
+            </div>
+        </section>
+        <section id="section10">
+            <div class="container">
+                <div class="sec10-contain">
+                    <h2>Let's Discuss your Projects</h2>
+                    <p>We pride ourselves with our ability to perform and deliver results. Use the form below to discuss your project needs with our team, we will get back asap</p>
+                    <button>Contact Us</button>
+                </div>
+            </div>
+        </section>
+        <section id="section11">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Blogs</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div id="sec10-contain"></div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="contact-contain">
+                    <div class="col-lg-4 align-self-center">
+                        <div class="contact-item">
+                            <div class="address">
+                                <h3>Address:</h3>
+                                <p>11 West Town</p>
+                                <p>PBo 12345, United States</p>
+                            </div>
+                            <div class="phone">
+                                <h3>Phone</h3>
+                                <p>+1 1234 56 789</p>
+                                <p>+1 1234 56 780</p>
+                            </div>
+                            <div class="email">
+                                <h3>Email:</h3>
+                                <p>info@example.com</p>
+                                <p>email@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="contact-item">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-s-6 pl-0">
+                                        <input type="text" placeholder="Name*" />
+                                    </div>
+                                    <div class="col-s-6 pr-0">
+                                        <input type="email" placeholder="Email*" />
+                                    </div>
+                                </div>
+                                <input type="text" placeholder="Subject" />
+                                <textarea rows="8" placeholder="Write Your Message*"></textarea>
+                                <button>
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main end  -->
+    <!-- footer start  -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-item">
+                        <img src="img/logo.png" />
+                        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
+                        <h3>Follow us</h3>
+                        <div class="footer-social">
+                            <span><i class="fab fa-twitter"></i></span>
+                            <span><i class="fab fa-facebook"></i></span>
+                            <span><i class="fab fa-instagram"></i></span>
+                            <span><i class="fab fa-linkedin"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-center">
+                    <div class="footer-item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">App Development</a></li>
+                            <li><a href="#">Cloud Services</a></li>
+                            <li><a href="#">Domain And Hosting</a></li>
+                            <li><a href="#">Seo Optimization</a></li>
+                            <li><a href="#">Social Media</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-center">
+                    <div class="footer-item">
+                        <h3>Information</h3>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Blog Details</a></li>
+                            <li><a href="#">Coming Soon</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-item">
+                        <div class="footer-contact">
+                            <h3>Contacts</h3>
+                            <p><span><i class="fas fa-map-marker-alt"></i></span> 101 West Town , PBO 12345, United States</p>
+                            <p><span><i class="fas fa-phone-alt"></i></span>+1 1234 56 789</p>
+                            <p><span><i class="fas fa-envelope"></i></span>contact@example.com</p>
+                        </div>
+                        <div class="footer-news">
+                            <h3>Newsletter</h3>
+                            <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            <fieldset>
+                                <input type="email" placeholder="Email Address" />
+                                <span><i class="fab fa-telegram"></i></span>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
