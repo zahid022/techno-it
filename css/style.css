@@ -31,7 +31,7 @@ header{
 }
 #nav-logo img {
     max-height: 40px;
-    width: 100%;
+    width: 172px;
 }
 nav{
     position: relative;
@@ -175,7 +175,7 @@ nav{
     padding: 0 20px;
 }
 .hero-btn button{
-    padding: 17px 31px;
+    padding: 17px 18px;
     border-radius: 50px;
     margin: 0 10px;
     background-color: #025add;
@@ -186,6 +186,7 @@ nav{
 }
 .hero-btn button:nth-child(1){
     margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 /* navbar end  */
 /* main start  */
@@ -570,6 +571,7 @@ footer::after{
     max-height: 40px;
     display: block;
     margin-bottom: 20px;
+    width: 172px;
 }
 .footer-item p{
     color: #fff;
@@ -695,6 +697,9 @@ fieldset span{
     }
     .sec10-card{
         min-height: 455px;
+    }
+    .hero-btn button{
+        padding: 19px 31px;
     }
 }
 @media only screen and (min-width: 992px) {

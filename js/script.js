@@ -99,25 +99,25 @@ let accordionData = [
 
 let blogData = [
   {
-    "image" : "blog-1.jpg",
-    "status" : "Domain & Hosting",
-    "text" : "How to host website on any hosting provider?",
-    "name" : "William Bla",
-    "date" : "Feb 1, 2022"
+    "image": "blog-1.jpg",
+    "status": "Domain & Hosting",
+    "text": "How to host website on any hosting provider?",
+    "name": "William Bla",
+    "date": "Feb 1, 2022"
   },
   {
-    "image" : "blog-2.jpg",
-    "status" : "Advertisement",
-    "text" : "How to create add on google adwords?",
-    "name" : "Jobi Ret",
-    "date" : "Oct 5, 2022"
+    "image": "blog-2.jpg",
+    "status": "Advertisement",
+    "text": "How to create add on google adwords?",
+    "name": "Jobi Ret",
+    "date": "Oct 5, 2022"
   },
   {
-    "image" : "blog-3.jpg",
-    "status" : "Marketing",
-    "text" : "What is digital marketing and why is important?",
-    "name" : "Main Dow",
-    "date" : "Dec 22, 2022"
+    "image": "blog-3.jpg",
+    "status": "Marketing",
+    "text": "What is digital marketing and why is important?",
+    "name": "Main Dow",
+    "date": "Dec 22, 2022"
   },
 ]
 
@@ -165,6 +165,7 @@ function sideacc() {
   sideaccIcon.classList.toggle('sideacc-icon-active')
 }
 ShowAllImg()
+
 function ShowAllImg(a) {
   sec3Content.innerHTML = ''
   for (let i = 0; i < images.length; i++) {
@@ -202,7 +203,7 @@ function ShowSec5Card() {
 ShowSec5Card()
 
 function sec5Card(item) {
-  return ` <div class="sec5-item-title">
+  return (` <div class="sec5-item-title">
               <div class="sec5-img">
                   <img src="img/${item.image}" />
               </div>
@@ -214,7 +215,7 @@ function sec5Card(item) {
           </div>
           <div class="sec5-item-content">
               <p>${item.text}</p>
-          </div>`
+          </div>`)
 }
 
 function ShowTeamCard() {
@@ -239,16 +240,18 @@ function ShowTeamCard() {
 ShowTeamCard()
 
 function count() {
-  if (x < 232) {
-    x++
-  }
-  if (z < 453) {
-    z++
-  }
-  if (y < 521) {
-    y++
-  } else {
-    clearInterval(interval)
+  if (window.scrollY > 3500) {
+    if (x < 232) {
+      x++
+    }
+    if (z < 453) {
+      z++
+    }
+    if (y < 521) {
+      y++
+    } else {
+      clearInterval(interval)
+    }
   }
   number1.innerHTML = x
   number2.innerHTML = y
@@ -287,7 +290,7 @@ function accOPen(z) {
   }
 }
 
-function showSec10Card(){
+function showSec10Card() {
   blogData.map((item) => {
     sec10Content.innerHTML += `
     <div class="col-s-6 col-lg-4">
@@ -329,6 +332,7 @@ var swiper = new Swiper(".mySwiper", {
 var swiper1 = new Swiper(".mySwiper1", {
   slidesPerView: 3,
   spaceBetween: 30,
+  loop: true,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
